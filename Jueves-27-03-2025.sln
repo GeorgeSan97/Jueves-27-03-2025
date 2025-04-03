@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Enterprise Business Rules", "1.Enterprise Business Rules", "{BD47AEE7-18F6-43B0-A928-E5D9DE0A4909}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplication Business Rules", "2.Aplication Business Rules", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Interface Adapters", "3.Interface Adapters", "{48ACB5A3-8DA4-4C4D-BC7D-4F4C714DA25C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Frameworks & Drivers", "4.Frameworks & Drivers", "{0A74FF31-05E5-4A94-A66D-3E331EFCCCFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Sales.Entities", "Northwind.Sales.Entities\Northwind.Sales.Entities.csproj", "{C0158888-ABDC-4561-AA83-E2589DEAAB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Sales.Backend.BusinessObjects", "Northwind.Sales.Backend.BusinessObjects\Northwind.Sales.Backend.BusinessObjects.csproj", "{1BC61ACD-9AED-40AC-B7D1-7EBDF1703081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0158888-ABDC-4561-AA83-E2589DEAAB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0158888-ABDC-4561-AA83-E2589DEAAB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0158888-ABDC-4561-AA83-E2589DEAAB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0158888-ABDC-4561-AA83-E2589DEAAB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC61ACD-9AED-40AC-B7D1-7EBDF1703081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC61ACD-9AED-40AC-B7D1-7EBDF1703081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC61ACD-9AED-40AC-B7D1-7EBDF1703081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC61ACD-9AED-40AC-B7D1-7EBDF1703081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0158888-ABDC-4561-AA83-E2589DEAAB93} = {BD47AEE7-18F6-43B0-A928-E5D9DE0A4909}
+		{1BC61ACD-9AED-40AC-B7D1-7EBDF1703081} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BFFCED8-0B7B-415E-A018-0AE47D71DBC7}
+	EndGlobalSection
+EndGlobal
